@@ -58,12 +58,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := $(APP_MODULE)
 
-LOCAL_C_INCLUDES += \
-$(LOCAL_PATH)/$(SRC)/Source/Broadway/Decoder	\
-$(LOCAL_PATH)/$(SRC)/Source/Broadway/Decoder/inc	\
-$(LOCAL_PATH)/$(SOY_PATH)/src	\
-$(LOCAL_PATH)/$(SRC)/Source/Json11	\
-
+LOCAL_C_INCLUDES += 
 
 
 # use warning as echo
@@ -82,7 +77,7 @@ LOCAL_LDLIBS  	+= -llog			# logging
 
 
 # native/ndk mediacodec
-LOCAL_LDLIBS += -lmediandk
+#LOCAL_LDLIBS += -lmediandk
 
 
 
@@ -94,47 +89,7 @@ LOCAL_LDFLAGS	+= -Wl,-rpath,.
 # project files
 # todo: generate from input from xcode
 LOCAL_SRC_FILES  := \
-$(SRC)/Source/PopH264.cpp \
-$(SRC)/Source/PopH264TestData.cpp \
-$(SRC)/Source/TDecoder.cpp \
-$(SRC)/Source/TDecoderInstance.cpp \
-$(SRC)/Source/TEncoder.cpp \
-$(SRC)/Source/TEncoderInstance.cpp \
-$(SRC)/Source/BroadwayDecoder.cpp \
-$(SRC)/Source/BroadwayAll.c \
-$(SRC)/Source/Json11/json11.cpp \
-$(SRC)/Source/AndroidDecoder.cpp \
-
-#$(SRC)/Source/AndroidMedia.cpp \
-
-
-# soy lib files
-LOCAL_SRC_FILES  += \
-$(SOY_PATH)/src/SoyTypes.cpp \
-$(SOY_PATH)/src/SoyAssert.cpp \
-$(SOY_PATH)/src/SoyDebug.cpp \
-$(SOY_PATH)/src/SoyPixels.cpp \
-$(SOY_PATH)/src/memheap.cpp \
-$(SOY_PATH)/src/SoyArray.cpp \
-$(SOY_PATH)/src/SoyTime.cpp \
-$(SOY_PATH)/src/SoyString.cpp \
-$(SOY_PATH)/src/SoyH264.cpp \
-$(SOY_PATH)/src/SoyPng.cpp \
-$(SOY_PATH)/src/SoyImage.cpp \
-$(SOY_PATH)/src/SoyStreamBuffer.cpp \
-$(SOY_PATH)/src/SoyFourcc.cpp \
-$(SOY_PATH)/src/SoyThread.cpp \
-$(SOY_PATH)/src/SoyJava.cpp \
-$(SOY_PATH)/src/SoyStream.cpp \
-$(SOY_PATH)/src/SoyMediaFormat.cpp \
-
-#$(SOY_PATH)/src/SoyOpengl.cpp \
-#$(SOY_PATH)/src/SoyOpenglContext.cpp \
-#$(SOY_PATH)/src/SoyEvent.cpp \
-#$(SOY_PATH)/src/SoyShader.cpp \
-#$(SOY_PATH)/src/SoyUnity.cpp \
-#$(SOY_PATH)/src/SoyBase64.cpp \
-#$(SOY_PATH)/src/SoyGraphics.cpp \
+$(SRC)/Source/PopLib.cpp 
 
 
 

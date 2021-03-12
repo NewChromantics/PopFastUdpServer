@@ -21,115 +21,28 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		BF0CCB2424A78D8D00596877 /* SoyMediaFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0CCB2224A78D8D00596877 /* SoyMediaFormat.cpp */; };
-		BF0CCB2524A78D8D00596877 /* SoyMediaFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0CCB2224A78D8D00596877 /* SoyMediaFormat.cpp */; };
-		BF151FE12384787200A70EBF /* BroadwayAll.c in Sources */ = {isa = PBXBuildFile; fileRef = BFF1C6E822E3C65800AFDFD5 /* BroadwayAll.c */; };
-		BF151FE22384787800A70EBF /* BroadwayDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB69F21F21F07008E7E76 /* BroadwayDecoder.cpp */; };
-		BF151FE32384787800A70EBF /* PopH264.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB63821F20C41008E7E76 /* PopH264.cpp */; };
-		BF151FE42384787800A70EBF /* TDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF53E82D22EDC989008253CD /* TDecoder.cpp */; };
-		BF151FE52384788600A70EBF /* memheap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6B421F22817008E7E76 /* memheap.cpp */; };
-		BF151FE62384788600A70EBF /* SoyArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFF1C70F22E3CF8B00AFDFD5 /* SoyArray.cpp */; };
-		BF151FE72384788600A70EBF /* SoyAssert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6AF21F227EF008E7E76 /* SoyAssert.cpp */; };
-		BF151FE82384788600A70EBF /* SoyDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6A421F22602008E7E76 /* SoyDebug.cpp */; };
-		BF151FE92384788600A70EBF /* SoyDebug.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6B721F22895008E7E76 /* SoyDebug.mm */; };
-		BF151FEA2384788600A70EBF /* SoyPixels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6A621F22602008E7E76 /* SoyPixels.cpp */; };
-		BF151FEB2384788600A70EBF /* SoyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6B221F22801008E7E76 /* SoyString.cpp */; };
-		BF151FEC2384788600A70EBF /* SoyTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6BC21F228D0008E7E76 /* SoyTime.cpp */; };
-		BF151FED2384788600A70EBF /* SoyTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6BD21F228D0008E7E76 /* SoyTime.mm */; };
-		BF151FEE2384788600A70EBF /* SoyTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6BA21F228B8008E7E76 /* SoyTypes.cpp */; };
+		BF151FE32384787800A70EBF /* PopLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB63821F20C41008E7E76 /* PopLib.cpp */; };
 		BF151FF02384789700A70EBF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF151FEF2384789700A70EBF /* CoreMedia.framework */; };
-		BF151FF1238478B000A70EBF /* PopH264Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = BF459CDE21F7D60500CED59D /* PopH264Framework.h */; };
-		BF151FF3238478B700A70EBF /* PopH264.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8AB63721F20C41008E7E76 /* PopH264.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF152081238595CA00A70EBF /* SoyRuntimeLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF15207F238595C700A70EBF /* SoyRuntimeLibrary.cpp */; };
-		BF152082238595CD00A70EBF /* SoyRuntimeLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF15207F238595C700A70EBF /* SoyRuntimeLibrary.cpp */; };
-		BF18269424226126006FEB93 /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF18269024226126006FEB93 /* json11.cpp */; };
-		BF18269524226126006FEB93 /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF18269024226126006FEB93 /* json11.cpp */; };
-		BF18269924226502006FEB93 /* SoyImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF18269624226502006FEB93 /* SoyImage.cpp */; };
-		BF18269A24226502006FEB93 /* SoyImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF18269624226502006FEB93 /* SoyImage.cpp */; };
-		BF1826A02422656E006FEB93 /* SoyStreamBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF18269D2422656E006FEB93 /* SoyStreamBuffer.cpp */; };
-		BF1826A12422656E006FEB93 /* SoyStreamBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF18269D2422656E006FEB93 /* SoyStreamBuffer.cpp */; };
-		BF1826A32422656E006FEB93 /* SoyStreamBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF18269E2422656E006FEB93 /* SoyStreamBuffer.h */; };
-		BF1826AA24228C43006FEB93 /* SoyPng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF1826A624228C43006FEB93 /* SoyPng.cpp */; };
-		BF1826AB24228C43006FEB93 /* SoyPng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF1826A624228C43006FEB93 /* SoyPng.cpp */; };
-		BF1826B124228D31006FEB93 /* SoyFourcc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF1826AD24228D31006FEB93 /* SoyFourcc.cpp */; };
-		BF1826B224228D31006FEB93 /* SoyFourcc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF1826AD24228D31006FEB93 /* SoyFourcc.cpp */; };
-		BF23A42025D9417A0060DE06 /* PopH264_TestApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC471792447509600A2DA70 /* PopH264_TestApp.cpp */; };
-		BF32256A2445EC9F00C74D4D /* TEncoderInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3225692445EC9F00C74D4D /* TEncoderInstance.cpp */; };
-		BF32256B2445EC9F00C74D4D /* TEncoderInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3225692445EC9F00C74D4D /* TEncoderInstance.cpp */; };
-		BF32256D2445ECD800C74D4D /* TDecoderInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF32256C2445ECD800C74D4D /* TDecoderInstance.cpp */; };
-		BF32256E2445ECD800C74D4D /* TDecoderInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF32256C2445ECD800C74D4D /* TDecoderInstance.cpp */; };
-		BF3225732445F0D200C74D4D /* X264Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3225712445F0D100C74D4D /* X264Encoder.cpp */; };
-		BF3225782445F8DD00C74D4D /* TEncoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3225772445F8DD00C74D4D /* TEncoder.cpp */; };
-		BF3225792445F8DD00C74D4D /* TEncoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3225772445F8DD00C74D4D /* TEncoder.cpp */; };
+		BF151FF1238478B000A70EBF /* PopLibFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BF459CDE21F7D60500CED59D /* PopLibFramework.h */; };
+		BF151FF3238478B700A70EBF /* PopLib.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8AB63721F20C41008E7E76 /* PopLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF32257B244609C700C74D4D /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF32257A244609C700C74D4D /* libx264.a */; };
 		BF322580244610DD00C74D4D /* PopH264_Ios.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF151FD92384786600A70EBF /* PopH264_Ios.framework */; };
 		BF44AAB2249FB65500C9D982 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF44AAB1249FB65500C9D982 /* AVFoundation.framework */; };
-		BF459CE221F7D60500CED59D /* PopH264Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = BF459CDE21F7D60500CED59D /* PopH264Framework.h */; };
-		BF459CE921F7D70000CED59D /* PopH264.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8AB63721F20C41008E7E76 /* PopH264.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF459CF421F7DB1B00CED59D /* PopH264.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB63821F20C41008E7E76 /* PopH264.cpp */; };
-		BF459CF521F7DB1E00CED59D /* BroadwayDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB69F21F21F07008E7E76 /* BroadwayDecoder.cpp */; };
-		BF459CF621F7DB3A00CED59D /* memheap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6B421F22817008E7E76 /* memheap.cpp */; };
-		BF459CF721F7DB3C00CED59D /* SoyTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6BA21F228B8008E7E76 /* SoyTypes.cpp */; };
-		BF459CF821F7DB4400CED59D /* SoyTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6BC21F228D0008E7E76 /* SoyTime.cpp */; };
-		BF459CF921F7DB4400CED59D /* SoyTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6BD21F228D0008E7E76 /* SoyTime.mm */; };
-		BF459CFA21F7DB4400CED59D /* SoyDebug.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6B721F22895008E7E76 /* SoyDebug.mm */; };
-		BF459CFB21F7DB4400CED59D /* SoyAssert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6AF21F227EF008E7E76 /* SoyAssert.cpp */; };
-		BF459CFC21F7DB4400CED59D /* SoyDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6A421F22602008E7E76 /* SoyDebug.cpp */; };
-		BF459CFD21F7DB4400CED59D /* SoyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6B221F22801008E7E76 /* SoyString.cpp */; };
-		BF459CFE21F7DB4400CED59D /* SoyPixels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB6A621F22602008E7E76 /* SoyPixels.cpp */; };
+		BF459CE221F7D60500CED59D /* PopLibFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BF459CDE21F7D60500CED59D /* PopLibFramework.h */; };
+		BF459CE921F7D70000CED59D /* PopLib.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8AB63721F20C41008E7E76 /* PopLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF459CF421F7DB1B00CED59D /* PopLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB63821F20C41008E7E76 /* PopLib.cpp */; };
 		BF459D1A21F7DB9900CED59D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF459CED21F7D73B00CED59D /* CoreMedia.framework */; };
-		BF51B8AB256A7141004DE4C7 /* SoyPlatform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF51B8AA256A713F004DE4C7 /* SoyPlatform.cpp */; };
-		BF51B8AC256A7141004DE4C7 /* SoyPlatform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF51B8AA256A713F004DE4C7 /* SoyPlatform.cpp */; };
-		BF51B8AE256A7203004DE4C7 /* SoyPlatform.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF51B8AD256A7203004DE4C7 /* SoyPlatform.mm */; };
-		BF51B8AF256A7203004DE4C7 /* SoyPlatform.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF51B8AD256A7203004DE4C7 /* SoyPlatform.mm */; };
 		BF51B8B1256A72A4004DE4C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF51B8B0256A72A4004DE4C7 /* UIKit.framework */; };
-		BF53E82F22EDCABB008253CD /* TDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF53E82D22EDC989008253CD /* TDecoder.cpp */; };
-		BF587C7A244B57A2000745B9 /* SoyTypes.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF587C79244B57A2000745B9 /* SoyTypes.mm */; };
-		BF587C7B244B57A2000745B9 /* SoyTypes.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF587C79244B57A2000745B9 /* SoyTypes.mm */; };
-		BFBC07F02386C0BC0070BCB4 /* SoyThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBC07ED2386C0B50070BCB4 /* SoyThread.cpp */; };
-		BFBC07F12386C0BC0070BCB4 /* SoyThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBC07ED2386C0B50070BCB4 /* SoyThread.cpp */; };
 		BFBC07FC238834EC0070BCB4 /* PopH264_Osx.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF459CD521F7D5C700CED59D /* PopH264_Osx.framework */; };
-		BFBD253125D9562E0076C307 /* TestData in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFE7BCCD258A9D7E0021932B /* TestData */; };
-		BFBD253325D95B540076C307 /* TestData in Resources */ = {isa = PBXBuildFile; fileRef = BFE7BCCD258A9D7E0021932B /* TestData */; };
-		BFC4717B2447509600A2DA70 /* PopH264_TestApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC471792447509600A2DA70 /* PopH264_TestApp.cpp */; };
 		BFC4717F244751BF00A2DA70 /* PopH264_Osx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF459CD521F7D5C700CED59D /* PopH264_Osx.framework */; };
-		BFC471842447523100A2DA70 /* AvfEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC471812447523000A2DA70 /* AvfEncoder.mm */; };
-		BFC471852447523100A2DA70 /* AvfEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC471812447523000A2DA70 /* AvfEncoder.mm */; };
-		BFC4718B2447625000A2DA70 /* AvfPixelBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC471862447624F00A2DA70 /* AvfPixelBuffer.h */; };
-		BFC471902447625000A2DA70 /* AvfPixelBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC471892447625000A2DA70 /* AvfPixelBuffer.mm */; };
-		BFC471912447625000A2DA70 /* AvfPixelBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC471892447625000A2DA70 /* AvfPixelBuffer.mm */; };
 		BFC4719324477DDE00A2DA70 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC4719224477DDE00A2DA70 /* CoreVideo.framework */; };
 		BFC4719524477DE500A2DA70 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC4719424477DE500A2DA70 /* VideoToolbox.framework */; };
 		BFC4719724477DEF00A2DA70 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC4719624477DEF00A2DA70 /* AVFoundation.framework */; };
-		BFC471A1244781CC00A2DA70 /* SoyString.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC471A0244781CC00A2DA70 /* SoyString.mm */; };
-		BFC471A2244781CC00A2DA70 /* SoyString.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC471A0244781CC00A2DA70 /* SoyString.mm */; };
 		BFDB2BB42449F54F009EC370 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDB2BB32449F54F009EC370 /* CoreVideo.framework */; };
 		BFDB2BB62449F569009EC370 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDB2BB52449F569009EC370 /* VideoToolbox.framework */; };
 		BFE7AAD725D94514006F48F1 /* PopH264_Ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF151FD92384786600A70EBF /* PopH264_Ios.framework */; };
 		BFE7AAD825D94514006F48F1 /* PopH264_Ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF151FD92384786600A70EBF /* PopH264_Ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BFE7AADC25D94565006F48F1 /* SoyFilesystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE973245838B000E9BE1B /* SoyFilesystem.mm */; };
-		BFE7AADD25D9456A006F48F1 /* SoyPixels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE9702458389B00E9BE1B /* SoyPixels.cpp */; };
-		BFE7AADE25D9456A006F48F1 /* SoyPng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE96F2458389B00E9BE1B /* SoyPng.cpp */; };
-		BFE7AADF25D9456A006F48F1 /* SoyFilesystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE960245835CD00E9BE1B /* SoyFilesystem.cpp */; };
-		BFEF6A1B246992D1000A1F88 /* SoyAvf.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFEF6A19246992CE000A1F88 /* SoyAvf.mm */; };
-		BFEF6A1D246992D2000A1F88 /* SoyAvf.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFEF6A19246992CE000A1F88 /* SoyAvf.mm */; };
-		BFEF6A1E2469963A000A1F88 /* SoyH264.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFDB2BAB2448B4CE009EC370 /* SoyH264.cpp */; };
-		BFEF6A1F2469963B000A1F88 /* SoyH264.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFDB2BAB2448B4CE009EC370 /* SoyH264.cpp */; };
-		BFEF6A2424699955000A1F88 /* SoyVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFEF6A2124699955000A1F88 /* SoyVector.cpp */; };
-		BFEF6A2524699955000A1F88 /* SoyVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFEF6A2124699955000A1F88 /* SoyVector.cpp */; };
-		BFF1C6EA22E3C65800AFDFD5 /* BroadwayAll.c in Sources */ = {isa = PBXBuildFile; fileRef = BFF1C6E822E3C65800AFDFD5 /* BroadwayAll.c */; };
-		BFF1C71222E3CF8B00AFDFD5 /* SoyArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFF1C70F22E3CF8B00AFDFD5 /* SoyArray.cpp */; };
-		BFFBE95524582ED000E9BE1B /* PopH264TestData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE95324582ED000E9BE1B /* PopH264TestData.cpp */; };
-		BFFBE95624582ED000E9BE1B /* PopH264TestData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE95324582ED000E9BE1B /* PopH264TestData.cpp */; };
-		BFFBE961245835CD00E9BE1B /* SoyFilesystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE960245835CD00E9BE1B /* SoyFilesystem.cpp */; };
-		BFFBE9712458389B00E9BE1B /* SoyPng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE96F2458389B00E9BE1B /* SoyPng.cpp */; };
-		BFFBE9722458389B00E9BE1B /* SoyPixels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE9702458389B00E9BE1B /* SoyPixels.cpp */; };
-		BFFBE974245838B000E9BE1B /* SoyFilesystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE973245838B000E9BE1B /* SoyFilesystem.mm */; };
 		BFFBE9762458390900E9BE1B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFBE9752458390900E9BE1B /* AppKit.framework */; };
-		BFFBE9782458796C00E9BE1B /* PopH264_TestAssetGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE9772458796C00E9BE1B /* PopH264_TestAssetGenerator.cpp */; };
-		BFFBE97924587F7600E9BE1B /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF18269024226126006FEB93 /* json11.cpp */; };
-		BFFBE97E245DB65000E9BE1B /* AvfDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE97B245DB65000E9BE1B /* AvfDecoder.mm */; };
-		BFFBE97F245DB65000E9BE1B /* AvfDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE97B245DB65000E9BE1B /* AvfDecoder.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,7 +89,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				BFBD253125D9562E0076C307 /* TestData in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,230 +108,45 @@
 /* Begin PBXFileReference section */
 		BF004B6724FD3CAC00DC6A90 /* PopH264_Osx.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PopH264_Osx.xcconfig; sourceTree = "<group>"; };
 		BF004B6824FD3D1C00DC6A90 /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Version.xcconfig; path = Source/Version.xcconfig; sourceTree = "<group>"; };
-		BF096B1124B9158A00D985E5 /* NvidiaEncoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NvidiaEncoder.cpp; path = Source/NvidiaEncoder.cpp; sourceTree = "<group>"; };
-		BF096B1224B9158A00D985E5 /* NvidiaEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NvidiaEncoder.h; path = Source/NvidiaEncoder.h; sourceTree = "<group>"; };
-		BF096B1424B918A400D985E5 /* nvidia */ = {isa = PBXFileReference; lastKnownFileType = folder; name = nvidia; path = Source/nvidia; sourceTree = "<group>"; };
-		BF096B1524B91F4E00D985E5 /* Linux */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Linux; path = Source/Linux; sourceTree = "<group>"; };
-		BF0A19C21EA428F4007EBC95 /* Unity */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Unity; sourceTree = "<group>"; };
-		BF0CCB2224A78D8D00596877 /* SoyMediaFormat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyMediaFormat.cpp; path = Source/SoyLib/src/SoyMediaFormat.cpp; sourceTree = "<group>"; };
-		BF0CCB2324A78D8D00596877 /* SoyMediaFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyMediaFormat.h; path = Source/SoyLib/src/SoyMediaFormat.h; sourceTree = "<group>"; };
+		BF13B0ED25FBABC600A02686 /* Source_Unity */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source_Unity; sourceTree = "<group>"; };
 		BF151FD92384786600A70EBF /* PopH264_Ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopH264_Ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF151FDC2384786600A70EBF /* PopH264_Ios_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PopH264_Ios_Info.plist; sourceTree = "<group>"; };
 		BF151FEF2384789700A70EBF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		BF151FF52384795600A70EBF /* PopH264_Ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PopH264_Ios.xcconfig; sourceTree = "<group>"; };
-		BF152067238589C800A70EBF /* v0.22.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = v0.22.0; path = ../MagicLeap/mlsdk/v0.22.0; sourceTree = "<group>"; };
 		BF152068238589DB00A70EBF /* libml_mediacodec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_mediacodec.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_mediacodec.dylib; sourceTree = "<group>"; };
 		BF15206A23858F2400A70EBF /* libml_mediacodeclist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_mediacodeclist.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_mediacodeclist.dylib; sourceTree = "<group>"; };
 		BF15206C23858F2C00A70EBF /* libml_mediaformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_mediaformat.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_mediaformat.dylib; sourceTree = "<group>"; };
 		BF15206E23858F2F00A70EBF /* libml_media_ccparser.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_media_ccparser.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_media_ccparser.dylib; sourceTree = "<group>"; };
-		BF152076238590F100A70EBF /* libml_mediacodec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_mediacodec.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_mediacodec.dylib; sourceTree = "<group>"; };
-		BF152078238590FE00A70EBF /* libml_mediaformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_mediaformat.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_mediaformat.dylib; sourceTree = "<group>"; };
-		BF15207A2385910800A70EBF /* libml_mediacodeclist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_mediacodeclist.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_mediacodeclist.dylib; sourceTree = "<group>"; };
-		BF15207C2385930B00A70EBF /* libml_media_ccparser.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_media_ccparser.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_media_ccparser.dylib; sourceTree = "<group>"; };
-		BF15207E238595C700A70EBF /* SoyRuntimeLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyRuntimeLibrary.h; path = Source/SoyLib/src/SoyRuntimeLibrary.h; sourceTree = "<group>"; };
-		BF15207F238595C700A70EBF /* SoyRuntimeLibrary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SoyRuntimeLibrary.cpp; path = Source/SoyLib/src/SoyRuntimeLibrary.cpp; sourceTree = "<group>"; };
-		BF18268F24226126006FEB93 /* json11.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = json11.hpp; path = Source/Json11/json11.hpp; sourceTree = "<group>"; };
-		BF18269024226126006FEB93 /* json11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json11.cpp; path = Source/Json11/json11.cpp; sourceTree = "<group>"; };
-		BF18269624226502006FEB93 /* SoyImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyImage.cpp; path = Source/SoyLib/src/SoyImage.cpp; sourceTree = "<group>"; };
-		BF18269724226502006FEB93 /* SoyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyImage.h; path = Source/SoyLib/src/SoyImage.h; sourceTree = "<group>"; };
-		BF18269D2422656E006FEB93 /* SoyStreamBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyStreamBuffer.cpp; path = Source/SoyLib/src/SoyStreamBuffer.cpp; sourceTree = "<group>"; };
-		BF18269E2422656E006FEB93 /* SoyStreamBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyStreamBuffer.h; path = Source/SoyLib/src/SoyStreamBuffer.h; sourceTree = "<group>"; };
-		BF1826A524228C43006FEB93 /* SoyPng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyPng.h; path = Source/SoyLib/src/SoyPng.h; sourceTree = "<group>"; };
-		BF1826A624228C43006FEB93 /* SoyPng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyPng.cpp; path = Source/SoyLib/src/SoyPng.cpp; sourceTree = "<group>"; };
-		BF1826AC24228D31006FEB93 /* SoyFourcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyFourcc.h; path = Source/SoyLib/src/SoyFourcc.h; sourceTree = "<group>"; };
-		BF1826AD24228D31006FEB93 /* SoyFourcc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyFourcc.cpp; path = Source/SoyLib/src/SoyFourcc.cpp; sourceTree = "<group>"; };
-		BF21AEA824D5807F0046A434 /* BufferArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BufferArray.hpp; path = Source/SoyLib/src/BufferArray.hpp; sourceTree = "<group>"; };
 		BF21AEAB24D74F010046A434 /* PopH264.Package */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PopH264.Package; sourceTree = "<group>"; };
 		BF23A41125D9415D0060DE06 /* PopH264_TestAppIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopH264_TestAppIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF3225602445E57100C74D4D /* TInstanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TInstanceManager.h; path = Source/TInstanceManager.h; sourceTree = "<group>"; };
-		BF3225612445E57100C74D4D /* TEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TEncoder.h; path = Source/TEncoder.h; sourceTree = "<group>"; };
-		BF3225622445E57100C74D4D /* TEncoderInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TEncoderInstance.h; path = Source/TEncoderInstance.h; sourceTree = "<group>"; };
-		BF3225692445EC9F00C74D4D /* TEncoderInstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TEncoderInstance.cpp; path = Source/TEncoderInstance.cpp; sourceTree = "<group>"; };
-		BF32256C2445ECD800C74D4D /* TDecoderInstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TDecoderInstance.cpp; path = Source/TDecoderInstance.cpp; sourceTree = "<group>"; };
-		BF3225702445F0A400C74D4D /* X264 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = X264; path = Source/X264; sourceTree = "<group>"; };
-		BF3225712445F0D100C74D4D /* X264Encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = X264Encoder.cpp; path = Source/X264Encoder.cpp; sourceTree = "<group>"; };
-		BF3225722445F0D200C74D4D /* X264Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = X264Encoder.h; path = Source/X264Encoder.h; sourceTree = "<group>"; };
-		BF3225772445F8DD00C74D4D /* TEncoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TEncoder.cpp; path = Source/TEncoder.cpp; sourceTree = "<group>"; };
 		BF32257A244609C700C74D4D /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = Source/X264/osx/libx264.a; sourceTree = "<group>"; };
 		BF32257C244609D100C74D4D /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = Source/X264/Ios/lib/libx264.a; sourceTree = "<group>"; };
 		BF44AAB1249FB65500C9D982 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		BF459C7F21F7C97400CED59D /* TDecoderInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDecoderInstance.h; path = Source/TDecoderInstance.h; sourceTree = "<group>"; };
 		BF459CD521F7D5C700CED59D /* PopH264_Osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopH264_Osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF459CDD21F7D60500CED59D /* PopH264_Osx_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PopH264_Osx_Info.plist; sourceTree = "<group>"; };
-		BF459CDE21F7D60500CED59D /* PopH264Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopH264Framework.h; path = Source/PopH264Framework.h; sourceTree = "<group>"; };
+		BF459CDE21F7D60500CED59D /* PopLibFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopLibFramework.h; path = Source/PopLibFramework.h; sourceTree = "<group>"; };
 		BF459CED21F7D73B00CED59D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		BF4D031B25CC6B6B003FF218 /* MediaFoundationEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaFoundationEncoder.h; path = Source/MediaFoundationEncoder.h; sourceTree = "<group>"; };
-		BF4D031C25CC6B6B003FF218 /* MediaFoundationDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MediaFoundationDecoder.cpp; path = Source/MediaFoundationDecoder.cpp; sourceTree = "<group>"; };
-		BF4D031D25CC6B6B003FF218 /* MediaFoundationEncoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MediaFoundationEncoder.cpp; path = Source/MediaFoundationEncoder.cpp; sourceTree = "<group>"; };
-		BF4D031E25CC6B6B003FF218 /* MediaFoundationDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaFoundationDecoder.h; path = Source/MediaFoundationDecoder.h; sourceTree = "<group>"; };
-		BF4D031F25CC6B6B003FF218 /* MediaFoundationTransformer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MediaFoundationTransformer.cpp; path = Source/MediaFoundationTransformer.cpp; sourceTree = "<group>"; };
-		BF4D032025CC6B6B003FF218 /* MediaFoundationTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaFoundationTransformer.h; path = Source/MediaFoundationTransformer.h; sourceTree = "<group>"; };
 		BF4D032225CC85DA003FF218 /* android-ndk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "android-ndk"; path = "../../../usr/local/Caskroom/android-ndk"; sourceTree = "<group>"; };
-		BF51B8822566E15B004DE4C7 /* SoyStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SoyStream.cpp; path = Source/SoyLib/src/SoyStream.cpp; sourceTree = "<group>"; };
-		BF51B8832566E15B004DE4C7 /* SoyStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyStream.h; path = Source/SoyLib/src/SoyStream.h; sourceTree = "<group>"; };
-		BF51B89B256837D8004DE4C7 /* MediaFoundationDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MediaFoundationDecoder.cpp; path = Source/MediaFoundationDecoder.cpp; sourceTree = "<group>"; };
-		BF51B8A9256A713F004DE4C7 /* SoyPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyPlatform.h; path = Source/SoyLib/src/SoyPlatform.h; sourceTree = "<group>"; };
-		BF51B8AA256A713F004DE4C7 /* SoyPlatform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SoyPlatform.cpp; path = Source/SoyLib/src/SoyPlatform.cpp; sourceTree = "<group>"; };
-		BF51B8AD256A7203004DE4C7 /* SoyPlatform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SoyPlatform.mm; path = Source/SoyLib/src/SoyPlatform.mm; sourceTree = "<group>"; };
 		BF51B8B0256A72A4004DE4C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BF51B8B4256A7356004DE4C7 /* SoyFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyFilesystem.h; path = Source/SoyLib/src/SoyFilesystem.h; sourceTree = "<group>"; };
 		BF51B911256AEC86004DE4C7 /* BuildUniversal.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = BuildUniversal.sh; sourceTree = "<group>"; };
 		BF53E82622EC8B59008253CD /* PopH264.Lumin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PopH264.Lumin; sourceTree = "<group>"; };
-		BF53E82B22ECB934008253CD /* v0.21.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = v0.21.0; path = ../MagicLeap/mlsdk/v0.21.0; sourceTree = "<group>"; };
-		BF53E82C22EDC6A6008253CD /* TDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TDecoder.h; path = Source/TDecoder.h; sourceTree = "<group>"; };
-		BF53E82D22EDC989008253CD /* TDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TDecoder.cpp; path = Source/TDecoder.cpp; sourceTree = "<group>"; };
-		BF53E83022EDCC7E008253CD /* MagicLeapDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MagicLeapDecoder.cpp; path = Source/MagicLeapDecoder.cpp; sourceTree = "<group>"; };
-		BF53E83122EDCC7F008253CD /* MagicLeapDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicLeapDecoder.h; path = Source/MagicLeapDecoder.h; sourceTree = "<group>"; };
-		BF53E83222EE024E008253CD /* SoyTypes_Lumin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyTypes_Lumin.h; path = Source/SoyLib/src/SoyTypes_Lumin.h; sourceTree = "<group>"; };
-		BF587C79244B57A2000745B9 /* SoyTypes.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SoyTypes.mm; path = Source/SoyLib/src/SoyTypes.mm; sourceTree = "<group>"; };
 		BF65D707256573A700B3EE9A /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
-		BF65D708256573A700B3EE9A /* License.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
-		BF8AB63721F20C41008E7E76 /* PopH264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopH264.h; path = Source/PopH264.h; sourceTree = "<group>"; };
-		BF8AB63821F20C41008E7E76 /* PopH264.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopH264.cpp; path = Source/PopH264.cpp; sourceTree = "<group>"; };
-		BF8AB63B21F20D4C008E7E76 /* Broadway */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Broadway; path = Source/Broadway; sourceTree = "<group>"; };
-		BF8AB63D21F20F34008E7E76 /* DecTestBench.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = DecTestBench.c; path = Source/Broadway/Decoder/src/DecTestBench.c; sourceTree = "<group>"; };
-		BF8AB63E21F20F34008E7E76 /* h264bsd_intra_prediction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_intra_prediction.c; path = Source/Broadway/Decoder/src/h264bsd_intra_prediction.c; sourceTree = "<group>"; };
-		BF8AB63F21F20F34008E7E76 /* H264SwDecApi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = H264SwDecApi.c; path = Source/Broadway/Decoder/src/H264SwDecApi.c; sourceTree = "<group>"; };
-		BF8AB64021F20F34008E7E76 /* h264bsd_deblocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_deblocking.h; path = Source/Broadway/Decoder/src/h264bsd_deblocking.h; sourceTree = "<group>"; };
-		BF8AB64121F20F34008E7E76 /* h264bsd_sei.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_sei.c; path = Source/Broadway/Decoder/src/h264bsd_sei.c; sourceTree = "<group>"; };
-		BF8AB64221F20F34008E7E76 /* h264bsd_dpb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_dpb.h; path = Source/Broadway/Decoder/src/h264bsd_dpb.h; sourceTree = "<group>"; };
-		BF8AB64321F20F34008E7E76 /* h264bsd_cavlc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_cavlc.h; path = Source/Broadway/Decoder/src/h264bsd_cavlc.h; sourceTree = "<group>"; };
-		BF8AB64421F20F34008E7E76 /* h264bsd_macroblock_layer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_macroblock_layer.c; path = Source/Broadway/Decoder/src/h264bsd_macroblock_layer.c; sourceTree = "<group>"; };
-		BF8AB64521F20F34008E7E76 /* h264bsd_vlc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_vlc.c; path = Source/Broadway/Decoder/src/h264bsd_vlc.c; sourceTree = "<group>"; };
-		BF8AB64621F20F34008E7E76 /* h264bsd_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_decoder.h; path = Source/Broadway/Decoder/src/h264bsd_decoder.h; sourceTree = "<group>"; };
-		BF8AB64721F20F34008E7E76 /* h264bsd_slice_group_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_slice_group_map.h; path = Source/Broadway/Decoder/src/h264bsd_slice_group_map.h; sourceTree = "<group>"; };
-		BF8AB64821F20F34008E7E76 /* Broadway.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Broadway.c; path = Source/Broadway/Decoder/src/Broadway.c; sourceTree = "<group>"; };
-		BF8AB64921F20F34008E7E76 /* h264bsd_pic_order_cnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_pic_order_cnt.h; path = Source/Broadway/Decoder/src/h264bsd_pic_order_cnt.h; sourceTree = "<group>"; };
-		BF8AB64A21F20F35008E7E76 /* h264bsd_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_decoder.c; path = Source/Broadway/Decoder/src/h264bsd_decoder.c; sourceTree = "<group>"; };
-		BF8AB64B21F20F35008E7E76 /* h264bsd_vui.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_vui.c; path = Source/Broadway/Decoder/src/h264bsd_vui.c; sourceTree = "<group>"; };
-		BF8AB64C21F20F35008E7E76 /* h264bsd_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_util.h; path = Source/Broadway/Decoder/src/h264bsd_util.h; sourceTree = "<group>"; };
-		BF8AB64D21F20F35008E7E76 /* h264bsd_sei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_sei.h; path = Source/Broadway/Decoder/src/h264bsd_sei.h; sourceTree = "<group>"; };
-		BF8AB64E21F20F35008E7E76 /* h264bsd_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_transform.c; path = Source/Broadway/Decoder/src/h264bsd_transform.c; sourceTree = "<group>"; };
-		BF8AB64F21F20F35008E7E76 /* h264bsd_reconstruct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_reconstruct.c; path = Source/Broadway/Decoder/src/h264bsd_reconstruct.c; sourceTree = "<group>"; };
-		BF8AB65021F20F35008E7E76 /* h264bsd_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_image.c; path = Source/Broadway/Decoder/src/h264bsd_image.c; sourceTree = "<group>"; };
-		BF8AB65121F20F35008E7E76 /* h264bsd_vui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_vui.h; path = Source/Broadway/Decoder/src/h264bsd_vui.h; sourceTree = "<group>"; };
-		BF8AB65221F20F35008E7E76 /* h264bsd_cfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_cfg.h; path = Source/Broadway/Decoder/src/h264bsd_cfg.h; sourceTree = "<group>"; };
-		BF8AB65321F20F35008E7E76 /* h264bsd_slice_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_slice_data.c; path = Source/Broadway/Decoder/src/h264bsd_slice_data.c; sourceTree = "<group>"; };
-		BF8AB65421F20F35008E7E76 /* h264bsd_conceal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_conceal.c; path = Source/Broadway/Decoder/src/h264bsd_conceal.c; sourceTree = "<group>"; };
-		BF8AB65521F20F35008E7E76 /* h264bsd_neighbour.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_neighbour.c; path = Source/Broadway/Decoder/src/h264bsd_neighbour.c; sourceTree = "<group>"; };
-		BF8AB65621F20F35008E7E76 /* h264bsd_nal_unit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_nal_unit.c; path = Source/Broadway/Decoder/src/h264bsd_nal_unit.c; sourceTree = "<group>"; };
-		BF8AB65721F20F35008E7E76 /* h264bsd_byte_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_byte_stream.h; path = Source/Broadway/Decoder/src/h264bsd_byte_stream.h; sourceTree = "<group>"; };
-		BF8AB65821F20F35008E7E76 /* h264bsd_byte_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_byte_stream.c; path = Source/Broadway/Decoder/src/h264bsd_byte_stream.c; sourceTree = "<group>"; };
-		BF8AB65921F20F35008E7E76 /* h264bsd_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_stream.c; path = Source/Broadway/Decoder/src/h264bsd_stream.c; sourceTree = "<group>"; };
-		BF8AB65A21F20F35008E7E76 /* h264bsd_slice_header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_slice_header.c; path = Source/Broadway/Decoder/src/h264bsd_slice_header.c; sourceTree = "<group>"; };
-		BF8AB65B21F20F35008E7E76 /* extraFlags.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = extraFlags.c; path = Source/Broadway/Decoder/src/extraFlags.c; sourceTree = "<group>"; };
-		BF8AB65C21F20F35008E7E76 /* h264bsd_deblocking.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_deblocking.c; path = Source/Broadway/Decoder/src/h264bsd_deblocking.c; sourceTree = "<group>"; };
-		BF8AB65D21F20F35008E7E76 /* h264bsd_dpb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_dpb.c; path = Source/Broadway/Decoder/src/h264bsd_dpb.c; sourceTree = "<group>"; };
-		BF8AB65E21F20F36008E7E76 /* h264bsd_pic_param_set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_pic_param_set.c; path = Source/Broadway/Decoder/src/h264bsd_pic_param_set.c; sourceTree = "<group>"; };
-		BF8AB65F21F20F36008E7E76 /* h264bsd_seq_param_set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_seq_param_set.c; path = Source/Broadway/Decoder/src/h264bsd_seq_param_set.c; sourceTree = "<group>"; };
-		BF8AB66021F20F36008E7E76 /* h264bsd_vlc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_vlc.h; path = Source/Broadway/Decoder/src/h264bsd_vlc.h; sourceTree = "<group>"; };
-		BF8AB66121F20F36008E7E76 /* h264bsd_reconstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_reconstruct.h; path = Source/Broadway/Decoder/src/h264bsd_reconstruct.h; sourceTree = "<group>"; };
-		BF8AB66221F20F36008E7E76 /* EvaluationTestBench.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EvaluationTestBench.x; path = Source/Broadway/Decoder/src/EvaluationTestBench.x; sourceTree = "<group>"; };
-		BF8AB66321F20F36008E7E76 /* h264bsd_macroblock_layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_macroblock_layer.h; path = Source/Broadway/Decoder/src/h264bsd_macroblock_layer.h; sourceTree = "<group>"; };
-		BF8AB66421F20F36008E7E76 /* h264bsd_transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_transform.h; path = Source/Broadway/Decoder/src/h264bsd_transform.h; sourceTree = "<group>"; };
-		BF8AB66521F20F36008E7E76 /* h264bsd_slice_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_slice_header.h; path = Source/Broadway/Decoder/src/h264bsd_slice_header.h; sourceTree = "<group>"; };
-		BF8AB66621F20F36008E7E76 /* h264bsd_container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_container.h; path = Source/Broadway/Decoder/src/h264bsd_container.h; sourceTree = "<group>"; };
-		BF8AB66721F20F36008E7E76 /* Decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Decoder.c; path = Source/Broadway/Decoder/src/Decoder.c; sourceTree = "<group>"; };
-		BF8AB66821F20F36008E7E76 /* h264bsd_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_stream.h; path = Source/Broadway/Decoder/src/h264bsd_stream.h; sourceTree = "<group>"; };
-		BF8AB66921F20F36008E7E76 /* h264bsd_seq_param_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_seq_param_set.h; path = Source/Broadway/Decoder/src/h264bsd_seq_param_set.h; sourceTree = "<group>"; };
-		BF8AB66A21F20F36008E7E76 /* h264bsd_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_util.c; path = Source/Broadway/Decoder/src/h264bsd_util.c; sourceTree = "<group>"; };
-		BF8AB66B21F20F36008E7E76 /* h264bsd_neighbour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_neighbour.h; path = Source/Broadway/Decoder/src/h264bsd_neighbour.h; sourceTree = "<group>"; };
-		BF8AB66C21F20F36008E7E76 /* h264bsd_cavlc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_cavlc.c; path = Source/Broadway/Decoder/src/h264bsd_cavlc.c; sourceTree = "<group>"; };
-		BF8AB66D21F20F36008E7E76 /* h264bsd_pic_param_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_pic_param_set.h; path = Source/Broadway/Decoder/src/h264bsd_pic_param_set.h; sourceTree = "<group>"; };
-		BF8AB66E21F20F36008E7E76 /* h264bsd_nal_unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_nal_unit.h; path = Source/Broadway/Decoder/src/h264bsd_nal_unit.h; sourceTree = "<group>"; };
-		BF8AB66F21F20F36008E7E76 /* h264bsd_storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_storage.h; path = Source/Broadway/Decoder/src/h264bsd_storage.h; sourceTree = "<group>"; };
-		BF8AB67021F20F36008E7E76 /* h264bsd_conceal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_conceal.h; path = Source/Broadway/Decoder/src/h264bsd_conceal.h; sourceTree = "<group>"; };
-		BF8AB67121F20F36008E7E76 /* EvaluationTestBench.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = EvaluationTestBench.c; path = Source/Broadway/Decoder/src/EvaluationTestBench.c; sourceTree = "<group>"; };
-		BF8AB67221F20F36008E7E76 /* h264bsd_slice_group_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_slice_group_map.c; path = Source/Broadway/Decoder/src/h264bsd_slice_group_map.c; sourceTree = "<group>"; };
-		BF8AB67321F20F37008E7E76 /* h264bsd_slice_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_slice_data.h; path = Source/Broadway/Decoder/src/h264bsd_slice_data.h; sourceTree = "<group>"; };
-		BF8AB67421F20F37008E7E76 /* h264bsd_intra_prediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_intra_prediction.h; path = Source/Broadway/Decoder/src/h264bsd_intra_prediction.h; sourceTree = "<group>"; };
-		BF8AB67521F20F37008E7E76 /* h264bsd_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_image.h; path = Source/Broadway/Decoder/src/h264bsd_image.h; sourceTree = "<group>"; };
-		BF8AB67621F20F37008E7E76 /* h264bsd_pic_order_cnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_pic_order_cnt.c; path = Source/Broadway/Decoder/src/h264bsd_pic_order_cnt.c; sourceTree = "<group>"; };
-		BF8AB67721F20F37008E7E76 /* h264bsd_inter_prediction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_inter_prediction.c; path = Source/Broadway/Decoder/src/h264bsd_inter_prediction.c; sourceTree = "<group>"; };
-		BF8AB67821F20F37008E7E76 /* h264bsd_storage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264bsd_storage.c; path = Source/Broadway/Decoder/src/h264bsd_storage.c; sourceTree = "<group>"; };
-		BF8AB67921F20F37008E7E76 /* h264bsd_inter_prediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264bsd_inter_prediction.h; path = Source/Broadway/Decoder/src/h264bsd_inter_prediction.h; sourceTree = "<group>"; };
-		BF8AB69F21F21F07008E7E76 /* BroadwayDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BroadwayDecoder.cpp; path = Source/BroadwayDecoder.cpp; sourceTree = "<group>"; };
-		BF8AB6A021F21F07008E7E76 /* BroadwayDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BroadwayDecoder.h; path = Source/BroadwayDecoder.h; sourceTree = "<group>"; };
-		BF8AB6A321F22602008E7E76 /* HeapArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = HeapArray.hpp; path = Source/SoyLib/src/HeapArray.hpp; sourceTree = "<group>"; };
-		BF8AB6A421F22602008E7E76 /* SoyDebug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyDebug.cpp; path = Source/SoyLib/src/SoyDebug.cpp; sourceTree = "<group>"; };
-		BF8AB6A521F22602008E7E76 /* Array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Array.hpp; path = Source/SoyLib/src/Array.hpp; sourceTree = "<group>"; };
-		BF8AB6A621F22602008E7E76 /* SoyPixels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyPixels.cpp; path = Source/SoyLib/src/SoyPixels.cpp; sourceTree = "<group>"; };
-		BF8AB6A721F22602008E7E76 /* SoyPixels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyPixels.h; path = Source/SoyLib/src/SoyPixels.h; sourceTree = "<group>"; };
-		BF8AB6A821F22602008E7E76 /* SoyDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyDebug.h; path = Source/SoyLib/src/SoyDebug.h; sourceTree = "<group>"; };
-		BF8AB6AE21F227EF008E7E76 /* SoyAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyAssert.h; path = Source/SoyLib/src/SoyAssert.h; sourceTree = "<group>"; };
-		BF8AB6AF21F227EF008E7E76 /* SoyAssert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyAssert.cpp; path = Source/SoyLib/src/SoyAssert.cpp; sourceTree = "<group>"; };
-		BF8AB6B121F22801008E7E76 /* SoyString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyString.h; path = Source/SoyLib/src/SoyString.h; sourceTree = "<group>"; };
-		BF8AB6B221F22801008E7E76 /* SoyString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyString.cpp; path = Source/SoyLib/src/SoyString.cpp; sourceTree = "<group>"; };
-		BF8AB6B421F22817008E7E76 /* memheap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = memheap.cpp; path = Source/SoyLib/src/memheap.cpp; sourceTree = "<group>"; };
-		BF8AB6B521F22818008E7E76 /* MemHeap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MemHeap.hpp; path = Source/SoyLib/src/MemHeap.hpp; sourceTree = "<group>"; };
-		BF8AB6B721F22895008E7E76 /* SoyDebug.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SoyDebug.mm; path = Source/SoyLib/src/SoyDebug.mm; sourceTree = "<group>"; };
-		BF8AB6B921F228B8008E7E76 /* SoyTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyTypes.h; path = Source/SoyLib/src/SoyTypes.h; sourceTree = "<group>"; };
-		BF8AB6BA21F228B8008E7E76 /* SoyTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyTypes.cpp; path = Source/SoyLib/src/SoyTypes.cpp; sourceTree = "<group>"; };
-		BF8AB6BC21F228D0008E7E76 /* SoyTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyTime.cpp; path = Source/SoyLib/src/SoyTime.cpp; sourceTree = "<group>"; };
-		BF8AB6BD21F228D0008E7E76 /* SoyTime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SoyTime.mm; path = Source/SoyLib/src/SoyTime.mm; sourceTree = "<group>"; };
-		BF8AB6BE21F228D0008E7E76 /* SoyTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyTime.h; path = Source/SoyLib/src/SoyTime.h; sourceTree = "<group>"; };
+		BF8AB63721F20C41008E7E76 /* PopLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopLib.h; path = Source/PopLib.h; sourceTree = "<group>"; };
+		BF8AB63821F20C41008E7E76 /* PopLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopLib.cpp; path = Source/PopLib.cpp; sourceTree = "<group>"; };
 		BF8AB6C721F23712008E7E76 /* PopH264.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PopH264.cs; path = Unity/PopH264/Assets/PopH264/PopH264.cs; sourceTree = "<group>"; };
-		BFBC07ED2386C0B50070BCB4 /* SoyThread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SoyThread.cpp; path = Source/SoyLib/src/SoyThread.cpp; sourceTree = "<group>"; };
-		BFBC07EE2386C0B50070BCB4 /* SoyThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyThread.h; path = Source/SoyLib/src/SoyThread.h; sourceTree = "<group>"; };
 		BFBC07F223882F9D0070BCB4 /* libml_mediaerror.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_mediaerror.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_mediaerror.dylib; sourceTree = "<group>"; };
-		BFBC07F423882FB90070BCB4 /* libml_mediaerror.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libml_mediaerror.dylib; path = ../MagicLeap/mlsdk/v0.22.0/lib/osx/libml_mediaerror.dylib; sourceTree = "<group>"; };
-		BFBC07FF238AE8A70070BCB4 /* SoyLib_Osx.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SoyLib_Osx.xcconfig; path = Source/SoyLib/SoyLib_Osx.xcconfig; sourceTree = "<group>"; };
-		BFBC0800238AE8A70070BCB4 /* SoyLib_Ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SoyLib_Ios.xcconfig; path = Source/SoyLib/SoyLib_Ios.xcconfig; sourceTree = "<group>"; };
 		BFC4717124474FFA00A2DA70 /* PopH264_TestApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PopH264_TestApp; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFC471792447509600A2DA70 /* PopH264_TestApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PopH264_TestApp.cpp; sourceTree = "<group>"; };
-		BFC471802447523000A2DA70 /* AvfEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AvfEncoder.h; path = Source/AvfEncoder.h; sourceTree = "<group>"; };
-		BFC471812447523000A2DA70 /* AvfEncoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AvfEncoder.mm; path = Source/AvfEncoder.mm; sourceTree = "<group>"; };
-		BFC471862447624F00A2DA70 /* AvfPixelBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AvfPixelBuffer.h; path = Source/SoyLib/src/AvfPixelBuffer.h; sourceTree = "<group>"; };
-		BFC471892447625000A2DA70 /* AvfPixelBuffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AvfPixelBuffer.mm; path = Source/SoyLib/src/AvfPixelBuffer.mm; sourceTree = "<group>"; };
 		BFC4719224477DDE00A2DA70 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		BFC4719424477DE500A2DA70 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		BFC4719624477DEF00A2DA70 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BFC4719E24477FC800A2DA70 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		BFC471A0244781CC00A2DA70 /* SoyString.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SoyString.mm; path = Source/SoyLib/src/SoyString.mm; sourceTree = "<group>"; };
-		BFC6C4EF2565B1AB00CBD99D /* AndroidMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AndroidMedia.h; path = Source/AndroidMedia.h; sourceTree = "<group>"; };
-		BFC6C4F02565B1AB00CBD99D /* AndroidMedia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AndroidMedia.cpp; path = Source/AndroidMedia.cpp; sourceTree = "<group>"; };
-		BFC6C4F42565CD8F00CBD99D /* SoyJava.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyJava.cpp; path = Source/SoyLib/src/SoyJava.cpp; sourceTree = "<group>"; };
-		BFC6C4F52565CD8F00CBD99D /* SoyJava.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyJava.h; path = Source/SoyLib/src/SoyJava.h; sourceTree = "<group>"; };
-		BFC6C4F92565D16D00CBD99D /* AndroidDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AndroidDecoder.cpp; path = Source/AndroidDecoder.cpp; sourceTree = "<group>"; };
-		BFC6C4FA2565D16D00CBD99D /* AndroidDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AndroidDecoder.h; path = Source/AndroidDecoder.h; sourceTree = "<group>"; };
-		BFC6C4FE2565DEFD00CBD99D /* SoyOpengl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyOpengl.h; path = Source/SoyLib/src/SoyOpengl.h; sourceTree = "<group>"; };
-		BFD607741EA16F0A0035C814 /* IUnityGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphics.h; path = Source/Unity/IUnityGraphics.h; sourceTree = "<group>"; };
-		BFD607751EA16F0A0035C814 /* IUnityGraphicsD3D9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsD3D9.h; path = Source/Unity/IUnityGraphicsD3D9.h; sourceTree = "<group>"; };
-		BFD607761EA16F0A0035C814 /* IUnityGraphicsD3D11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsD3D11.h; path = Source/Unity/IUnityGraphicsD3D11.h; sourceTree = "<group>"; };
-		BFD607771EA16F0A0035C814 /* IUnityGraphicsD3D12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsD3D12.h; path = Source/Unity/IUnityGraphicsD3D12.h; sourceTree = "<group>"; };
-		BFD607781EA16F0A0035C814 /* IUnityGraphicsMetal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsMetal.h; path = Source/Unity/IUnityGraphicsMetal.h; sourceTree = "<group>"; };
-		BFD607791EA16F0A0035C814 /* IUnityInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IUnityInterface.h; path = Source/Unity/IUnityInterface.h; sourceTree = "<group>"; };
-		BFDB2BAB2448B4CE009EC370 /* SoyH264.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SoyH264.cpp; path = Source/SoyLib/src/SoyH264.cpp; sourceTree = "<group>"; };
-		BFDB2BAC2448B4CF009EC370 /* SoyH264.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyH264.h; path = Source/SoyLib/src/SoyH264.h; sourceTree = "<group>"; };
 		BFDB2BB32449F54F009EC370 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
 		BFDB2BB52449F569009EC370 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		BFDBAB8624BCC4AB00E8BCE1 /* PopH264.Linux */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PopH264.Linux; sourceTree = "<group>"; };
-		BFE7AAD625D943EA006F48F1 /* PopH264_TestAppIos_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = PopH264_TestAppIos_Info.plist; path = Source_TestApp/PopH264_TestAppIos_Info.plist; sourceTree = SOURCE_ROOT; };
-		BFE7BCCD258A9D7E0021932B /* TestData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestData; sourceTree = "<group>"; };
 		BFE87C1C25E7B1AD00224AB0 /* PopH264.Emscripten */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PopH264.Emscripten; sourceTree = "<group>"; };
-		BFE87C1D25E7E85E00224AB0 /* PopH264_WasmBroadwayDecoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PopH264_WasmBroadwayDecoder.c; path = Source/PopH264_WasmBroadwayDecoder.c; sourceTree = "<group>"; };
 		BFE87C1E25E7EE9E00224AB0 /* .github */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .github; sourceTree = "<group>"; };
-		BFEF6A19246992CE000A1F88 /* SoyAvf.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SoyAvf.mm; path = Source/SoyLib/src/SoyAvf.mm; sourceTree = "<group>"; };
-		BFEF6A1A246992CE000A1F88 /* SoyAvf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyAvf.h; path = Source/SoyLib/src/SoyAvf.h; sourceTree = "<group>"; };
-		BFEF6A2024699955000A1F88 /* SoyVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyVector.h; path = Source/SoyLib/src/SoyVector.h; sourceTree = "<group>"; };
-		BFEF6A2124699955000A1F88 /* SoyVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyVector.cpp; path = Source/SoyLib/src/SoyVector.cpp; sourceTree = "<group>"; };
-		BFEF6A45247994EA000A1F88 /* SoyTypes_Android.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyTypes_Android.h; path = Source/SoyLib/src/SoyTypes_Android.h; sourceTree = "<group>"; };
 		BFF1C6E322E377D100AFDFD5 /* PopH264.Android */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PopH264.Android; sourceTree = "<group>"; };
-		BFF1C6E822E3C65800AFDFD5 /* BroadwayAll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BroadwayAll.c; path = Source/BroadwayAll.c; sourceTree = "<group>"; };
-		BFF1C70E22E3CF8A00AFDFD5 /* SoyArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyArray.h; path = Source/SoyLib/src/SoyArray.h; sourceTree = "<group>"; };
-		BFF1C70F22E3CF8B00AFDFD5 /* SoyArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyArray.cpp; path = Source/SoyLib/src/SoyArray.cpp; sourceTree = "<group>"; };
-		BFFBE95324582ED000E9BE1B /* PopH264TestData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopH264TestData.cpp; path = Source/PopH264TestData.cpp; sourceTree = "<group>"; };
-		BFFBE95424582ED000E9BE1B /* PopH264TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopH264TestData.h; path = Source/PopH264TestData.h; sourceTree = "<group>"; };
-		BFFBE960245835CD00E9BE1B /* SoyFilesystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyFilesystem.cpp; path = Source/SoyLib/src/SoyFilesystem.cpp; sourceTree = SOURCE_ROOT; };
-		BFFBE96F2458389B00E9BE1B /* SoyPng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyPng.cpp; path = Source/SoyLib/src/SoyPng.cpp; sourceTree = SOURCE_ROOT; };
-		BFFBE9702458389B00E9BE1B /* SoyPixels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyPixels.cpp; path = Source/SoyLib/src/SoyPixels.cpp; sourceTree = SOURCE_ROOT; };
-		BFFBE973245838B000E9BE1B /* SoyFilesystem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SoyFilesystem.mm; path = Source/SoyLib/src/SoyFilesystem.mm; sourceTree = SOURCE_ROOT; };
 		BFFBE9752458390900E9BE1B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		BFFBE9772458796C00E9BE1B /* PopH264_TestAssetGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PopH264_TestAssetGenerator.cpp; sourceTree = "<group>"; };
-		BFFBE97A245DB65000E9BE1B /* AvfDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AvfDecoder.h; path = Source/AvfDecoder.h; sourceTree = "<group>"; };
-		BFFBE97B245DB65000E9BE1B /* AvfDecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AvfDecoder.mm; path = Source/AvfDecoder.mm; sourceTree = "<group>"; };
-		BFFC941A245DC0B900AEE711 /* SoyTypes_CoreFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyTypes_CoreFoundation.h; path = Source/SoyLib/src/SoyTypes_CoreFoundation.h; sourceTree = "<group>"; };
-		BFFC941D245EE17900AEE711 /* SoyMedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoyMedia.h; path = Source/SoyLib/src/SoyMedia.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -486,15 +213,6 @@
 			path = Source_Ios;
 			sourceTree = "<group>";
 		};
-		BF18268E24226111006FEB93 /* Json11 */ = {
-			isa = PBXGroup;
-			children = (
-				BF18269024226126006FEB93 /* json11.cpp */,
-				BF18268F24226126006FEB93 /* json11.hpp */,
-			);
-			name = Json11;
-			sourceTree = "<group>";
-		};
 		BF459CEC21F7D73B00CED59D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -523,26 +241,16 @@
 		BF4A6A0B1EA16D7C00613A64 = {
 			isa = PBXGroup;
 			children = (
+				BF13B0ED25FBABC600A02686 /* Source_Unity */,
 				BFE87C1E25E7EE9E00224AB0 /* .github */,
 				BFE87C1C25E7B1AD00224AB0 /* PopH264.Emscripten */,
 				BF4D032225CC85DA003FF218 /* android-ndk */,
-				BFE7BCCD258A9D7E0021932B /* TestData */,
-				BF65D708256573A700B3EE9A /* License.md */,
 				BF65D707256573A700B3EE9A /* Readme.md */,
 				BF21AEAB24D74F010046A434 /* PopH264.Package */,
 				BFDBAB8624BCC4AB00E8BCE1 /* PopH264.Linux */,
-				BFBC07F423882FB90070BCB4 /* libml_mediaerror.dylib */,
-				BF15207C2385930B00A70EBF /* libml_media_ccparser.dylib */,
-				BF15207A2385910800A70EBF /* libml_mediacodeclist.dylib */,
-				BF152078238590FE00A70EBF /* libml_mediaformat.dylib */,
-				BF152076238590F100A70EBF /* libml_mediacodec.dylib */,
-				BF152067238589C800A70EBF /* v0.22.0 */,
-				BF53E82B22ECB934008253CD /* v0.21.0 */,
 				BF53E82622EC8B59008253CD /* PopH264.Lumin */,
 				BFF1C6E322E377D100AFDFD5 /* PopH264.Android */,
-				BF0A19C21EA428F4007EBC95 /* Unity */,
 				BFD6076D1EA16ED20035C814 /* Source */,
-				BFC471782447506B00A2DA70 /* Source_TestApp */,
 				BF004B6424FD3CAC00DC6A90 /* Source_Osx */,
 				BF151FDA2384786600A70EBF /* Source_Ios */,
 				BF4A6A151EA16D7D00613A64 /* Products */,
@@ -561,149 +269,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF8AB63A21F20CD9008E7E76 /* Broadway */ = {
-			isa = PBXGroup;
-			children = (
-				BF8AB63C21F20F23008E7E76 /* Src */,
-			);
-			name = Broadway;
-			sourceTree = "<group>";
-		};
-		BF8AB63C21F20F23008E7E76 /* Src */ = {
-			isa = PBXGroup;
-			children = (
-				BF8AB64821F20F34008E7E76 /* Broadway.c */,
-				BF8AB66721F20F36008E7E76 /* Decoder.c */,
-				BF8AB63D21F20F34008E7E76 /* DecTestBench.c */,
-				BF8AB67121F20F36008E7E76 /* EvaluationTestBench.c */,
-				BF8AB66221F20F36008E7E76 /* EvaluationTestBench.x */,
-				BF8AB65B21F20F35008E7E76 /* extraFlags.c */,
-				BF8AB65821F20F35008E7E76 /* h264bsd_byte_stream.c */,
-				BF8AB65721F20F35008E7E76 /* h264bsd_byte_stream.h */,
-				BF8AB66C21F20F36008E7E76 /* h264bsd_cavlc.c */,
-				BF8AB64321F20F34008E7E76 /* h264bsd_cavlc.h */,
-				BF8AB65221F20F35008E7E76 /* h264bsd_cfg.h */,
-				BF8AB65421F20F35008E7E76 /* h264bsd_conceal.c */,
-				BF8AB67021F20F36008E7E76 /* h264bsd_conceal.h */,
-				BF8AB66621F20F36008E7E76 /* h264bsd_container.h */,
-				BF8AB65C21F20F35008E7E76 /* h264bsd_deblocking.c */,
-				BF8AB64021F20F34008E7E76 /* h264bsd_deblocking.h */,
-				BF8AB64A21F20F35008E7E76 /* h264bsd_decoder.c */,
-				BF8AB64621F20F34008E7E76 /* h264bsd_decoder.h */,
-				BF8AB65D21F20F35008E7E76 /* h264bsd_dpb.c */,
-				BF8AB64221F20F34008E7E76 /* h264bsd_dpb.h */,
-				BF8AB65021F20F35008E7E76 /* h264bsd_image.c */,
-				BF8AB67521F20F37008E7E76 /* h264bsd_image.h */,
-				BF8AB67721F20F37008E7E76 /* h264bsd_inter_prediction.c */,
-				BF8AB67921F20F37008E7E76 /* h264bsd_inter_prediction.h */,
-				BF8AB63E21F20F34008E7E76 /* h264bsd_intra_prediction.c */,
-				BF8AB67421F20F37008E7E76 /* h264bsd_intra_prediction.h */,
-				BF8AB64421F20F34008E7E76 /* h264bsd_macroblock_layer.c */,
-				BF8AB66321F20F36008E7E76 /* h264bsd_macroblock_layer.h */,
-				BF8AB65621F20F35008E7E76 /* h264bsd_nal_unit.c */,
-				BF8AB66E21F20F36008E7E76 /* h264bsd_nal_unit.h */,
-				BF8AB65521F20F35008E7E76 /* h264bsd_neighbour.c */,
-				BF8AB66B21F20F36008E7E76 /* h264bsd_neighbour.h */,
-				BF8AB67621F20F37008E7E76 /* h264bsd_pic_order_cnt.c */,
-				BF8AB64921F20F34008E7E76 /* h264bsd_pic_order_cnt.h */,
-				BF8AB65E21F20F36008E7E76 /* h264bsd_pic_param_set.c */,
-				BF8AB66D21F20F36008E7E76 /* h264bsd_pic_param_set.h */,
-				BF8AB64F21F20F35008E7E76 /* h264bsd_reconstruct.c */,
-				BF8AB66121F20F36008E7E76 /* h264bsd_reconstruct.h */,
-				BF8AB64121F20F34008E7E76 /* h264bsd_sei.c */,
-				BF8AB64D21F20F35008E7E76 /* h264bsd_sei.h */,
-				BF8AB65F21F20F36008E7E76 /* h264bsd_seq_param_set.c */,
-				BF8AB66921F20F36008E7E76 /* h264bsd_seq_param_set.h */,
-				BF8AB65321F20F35008E7E76 /* h264bsd_slice_data.c */,
-				BF8AB67321F20F37008E7E76 /* h264bsd_slice_data.h */,
-				BF8AB67221F20F36008E7E76 /* h264bsd_slice_group_map.c */,
-				BF8AB64721F20F34008E7E76 /* h264bsd_slice_group_map.h */,
-				BF8AB65A21F20F35008E7E76 /* h264bsd_slice_header.c */,
-				BF8AB66521F20F36008E7E76 /* h264bsd_slice_header.h */,
-				BF8AB67821F20F37008E7E76 /* h264bsd_storage.c */,
-				BF8AB66F21F20F36008E7E76 /* h264bsd_storage.h */,
-				BF8AB65921F20F35008E7E76 /* h264bsd_stream.c */,
-				BF8AB66821F20F36008E7E76 /* h264bsd_stream.h */,
-				BF8AB64E21F20F35008E7E76 /* h264bsd_transform.c */,
-				BF8AB66421F20F36008E7E76 /* h264bsd_transform.h */,
-				BF8AB66A21F20F36008E7E76 /* h264bsd_util.c */,
-				BF8AB64C21F20F35008E7E76 /* h264bsd_util.h */,
-				BF8AB64521F20F34008E7E76 /* h264bsd_vlc.c */,
-				BF8AB66021F20F36008E7E76 /* h264bsd_vlc.h */,
-				BF8AB64B21F20F35008E7E76 /* h264bsd_vui.c */,
-				BF8AB65121F20F35008E7E76 /* h264bsd_vui.h */,
-				BF8AB63F21F20F34008E7E76 /* H264SwDecApi.c */,
-			);
-			name = Src;
-			sourceTree = "<group>";
-		};
-		BF8AB6A221F225C5008E7E76 /* SoyLib */ = {
-			isa = PBXGroup;
-			children = (
-				BF8AB6A521F22602008E7E76 /* Array.hpp */,
-				BFC471862447624F00A2DA70 /* AvfPixelBuffer.h */,
-				BFC471892447625000A2DA70 /* AvfPixelBuffer.mm */,
-				BF21AEA824D5807F0046A434 /* BufferArray.hpp */,
-				BF8AB6A321F22602008E7E76 /* HeapArray.hpp */,
-				BF8AB6B421F22817008E7E76 /* memheap.cpp */,
-				BF8AB6B521F22818008E7E76 /* MemHeap.hpp */,
-				BFF1C70F22E3CF8B00AFDFD5 /* SoyArray.cpp */,
-				BFF1C70E22E3CF8A00AFDFD5 /* SoyArray.h */,
-				BF8AB6AF21F227EF008E7E76 /* SoyAssert.cpp */,
-				BF8AB6AE21F227EF008E7E76 /* SoyAssert.h */,
-				BFEF6A1A246992CE000A1F88 /* SoyAvf.h */,
-				BFEF6A19246992CE000A1F88 /* SoyAvf.mm */,
-				BF8AB6A421F22602008E7E76 /* SoyDebug.cpp */,
-				BF8AB6A821F22602008E7E76 /* SoyDebug.h */,
-				BF8AB6B721F22895008E7E76 /* SoyDebug.mm */,
-				BF1826AD24228D31006FEB93 /* SoyFourcc.cpp */,
-				BF1826AC24228D31006FEB93 /* SoyFourcc.h */,
-				BFDB2BAB2448B4CE009EC370 /* SoyH264.cpp */,
-				BFDB2BAC2448B4CF009EC370 /* SoyH264.h */,
-				BF18269624226502006FEB93 /* SoyImage.cpp */,
-				BF18269724226502006FEB93 /* SoyImage.h */,
-				BFC6C4F42565CD8F00CBD99D /* SoyJava.cpp */,
-				BFC6C4F52565CD8F00CBD99D /* SoyJava.h */,
-				BFBC0800238AE8A70070BCB4 /* SoyLib_Ios.xcconfig */,
-				BFBC07FF238AE8A70070BCB4 /* SoyLib_Osx.xcconfig */,
-				BFFC941D245EE17900AEE711 /* SoyMedia.h */,
-				BF0CCB2224A78D8D00596877 /* SoyMediaFormat.cpp */,
-				BF0CCB2324A78D8D00596877 /* SoyMediaFormat.h */,
-				BFC6C4FE2565DEFD00CBD99D /* SoyOpengl.h */,
-				BF8AB6A621F22602008E7E76 /* SoyPixels.cpp */,
-				BF8AB6A721F22602008E7E76 /* SoyPixels.h */,
-				BF51B8AA256A713F004DE4C7 /* SoyPlatform.cpp */,
-				BF51B8A9256A713F004DE4C7 /* SoyPlatform.h */,
-				BF51B8AD256A7203004DE4C7 /* SoyPlatform.mm */,
-				BF1826A624228C43006FEB93 /* SoyPng.cpp */,
-				BF1826A524228C43006FEB93 /* SoyPng.h */,
-				BF15207F238595C700A70EBF /* SoyRuntimeLibrary.cpp */,
-				BF15207E238595C700A70EBF /* SoyRuntimeLibrary.h */,
-				BF51B8822566E15B004DE4C7 /* SoyStream.cpp */,
-				BF51B8832566E15B004DE4C7 /* SoyStream.h */,
-				BF18269D2422656E006FEB93 /* SoyStreamBuffer.cpp */,
-				BF18269E2422656E006FEB93 /* SoyStreamBuffer.h */,
-				BF8AB6B221F22801008E7E76 /* SoyString.cpp */,
-				BF8AB6B121F22801008E7E76 /* SoyString.h */,
-				BFC471A0244781CC00A2DA70 /* SoyString.mm */,
-				BFBC07ED2386C0B50070BCB4 /* SoyThread.cpp */,
-				BFBC07EE2386C0B50070BCB4 /* SoyThread.h */,
-				BF8AB6BC21F228D0008E7E76 /* SoyTime.cpp */,
-				BF8AB6BE21F228D0008E7E76 /* SoyTime.h */,
-				BF8AB6BD21F228D0008E7E76 /* SoyTime.mm */,
-				BFEF6A45247994EA000A1F88 /* SoyTypes_Android.h */,
-				BFFC941A245DC0B900AEE711 /* SoyTypes_CoreFoundation.h */,
-				BF53E83222EE024E008253CD /* SoyTypes_Lumin.h */,
-				BF8AB6BA21F228B8008E7E76 /* SoyTypes.cpp */,
-				BF8AB6B921F228B8008E7E76 /* SoyTypes.h */,
-				BF587C79244B57A2000745B9 /* SoyTypes.mm */,
-				BFEF6A2124699955000A1F88 /* SoyVector.cpp */,
-				BFEF6A2024699955000A1F88 /* SoyVector.h */,
-				BF51B8B4256A7356004DE4C7 /* SoyFilesystem.h */,
-			);
-			name = SoyLib;
-			sourceTree = "<group>";
-		};
 		BF8AB6C621F236F8008E7E76 /* Unity C# */ = {
 			isa = PBXGroup;
 			children = (
@@ -712,96 +277,17 @@
 			name = "Unity C#";
 			sourceTree = "<group>";
 		};
-		BFC471782447506B00A2DA70 /* Source_TestApp */ = {
-			isa = PBXGroup;
-			children = (
-				BFE7AAD625D943EA006F48F1 /* PopH264_TestAppIos_Info.plist */,
-				BFFBE95F245835B400E9BE1B /* SoyLib */,
-				BFC471792447509600A2DA70 /* PopH264_TestApp.cpp */,
-				BFFBE9772458796C00E9BE1B /* PopH264_TestAssetGenerator.cpp */,
-			);
-			path = Source_TestApp;
-			sourceTree = "<group>";
-		};
 		BFD6076D1EA16ED20035C814 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				BFC6C4F92565D16D00CBD99D /* AndroidDecoder.cpp */,
-				BFC6C4FA2565D16D00CBD99D /* AndroidDecoder.h */,
-				BFC6C4F02565B1AB00CBD99D /* AndroidMedia.cpp */,
-				BFC6C4EF2565B1AB00CBD99D /* AndroidMedia.h */,
-				BFFBE97A245DB65000E9BE1B /* AvfDecoder.h */,
-				BFFBE97B245DB65000E9BE1B /* AvfDecoder.mm */,
-				BFC471802447523000A2DA70 /* AvfEncoder.h */,
-				BFC471812447523000A2DA70 /* AvfEncoder.mm */,
-				BF8AB63A21F20CD9008E7E76 /* Broadway */,
-				BF8AB63B21F20D4C008E7E76 /* Broadway */,
-				BFF1C6E822E3C65800AFDFD5 /* BroadwayAll.c */,
-				BFE87C1D25E7E85E00224AB0 /* PopH264_WasmBroadwayDecoder.c */,
-				BF8AB69F21F21F07008E7E76 /* BroadwayDecoder.cpp */,
-				BF8AB6A021F21F07008E7E76 /* BroadwayDecoder.h */,
-				BF18268E24226111006FEB93 /* Json11 */,
-				BF096B1524B91F4E00D985E5 /* Linux */,
-				BF53E83022EDCC7E008253CD /* MagicLeapDecoder.cpp */,
-				BF53E83122EDCC7F008253CD /* MagicLeapDecoder.h */,
-				BF51B89B256837D8004DE4C7 /* MediaFoundationDecoder.cpp */,
-				BF4D031E25CC6B6B003FF218 /* MediaFoundationDecoder.h */,
-				BF4D031D25CC6B6B003FF218 /* MediaFoundationEncoder.cpp */,
-				BF4D031B25CC6B6B003FF218 /* MediaFoundationEncoder.h */,
-				BF4D031F25CC6B6B003FF218 /* MediaFoundationTransformer.cpp */,
-				BF4D032025CC6B6B003FF218 /* MediaFoundationTransformer.h */,
-				BF096B1424B918A400D985E5 /* nvidia */,
-				BF096B1124B9158A00D985E5 /* NvidiaEncoder.cpp */,
-				BF096B1224B9158A00D985E5 /* NvidiaEncoder.h */,
-				BF8AB63821F20C41008E7E76 /* PopH264.cpp */,
-				BF8AB63721F20C41008E7E76 /* PopH264.h */,
-				BF459CDE21F7D60500CED59D /* PopH264Framework.h */,
-				BFFBE95324582ED000E9BE1B /* PopH264TestData.cpp */,
-				BFFBE95424582ED000E9BE1B /* PopH264TestData.h */,
-				BF8AB6A221F225C5008E7E76 /* SoyLib */,
-				BF53E82D22EDC989008253CD /* TDecoder.cpp */,
-				BF53E82C22EDC6A6008253CD /* TDecoder.h */,
-				BF32256C2445ECD800C74D4D /* TDecoderInstance.cpp */,
-				BF459C7F21F7C97400CED59D /* TDecoderInstance.h */,
-				BF3225772445F8DD00C74D4D /* TEncoder.cpp */,
-				BF3225612445E57100C74D4D /* TEncoder.h */,
-				BF3225692445EC9F00C74D4D /* TEncoderInstance.cpp */,
-				BF3225622445E57100C74D4D /* TEncoderInstance.h */,
-				BF3225602445E57100C74D4D /* TInstanceManager.h */,
-				BFD607731EA16EFC0035C814 /* Unity */,
+				BF8AB63821F20C41008E7E76 /* PopLib.cpp */,
+				BF8AB63721F20C41008E7E76 /* PopLib.h */,
+				BF459CDE21F7D60500CED59D /* PopLibFramework.h */,
 				BF8AB6C621F236F8008E7E76 /* Unity C# */,
 				BF004B6824FD3D1C00DC6A90 /* Version.xcconfig */,
-				BF3225702445F0A400C74D4D /* X264 */,
-				BF3225712445F0D100C74D4D /* X264Encoder.cpp */,
-				BF3225722445F0D200C74D4D /* X264Encoder.h */,
-				BF4D031C25CC6B6B003FF218 /* MediaFoundationDecoder.cpp */,
 			);
 			name = Source;
 			sourceTree = SOURCE_ROOT;
-		};
-		BFD607731EA16EFC0035C814 /* Unity */ = {
-			isa = PBXGroup;
-			children = (
-				BFD607741EA16F0A0035C814 /* IUnityGraphics.h */,
-				BFD607751EA16F0A0035C814 /* IUnityGraphicsD3D9.h */,
-				BFD607761EA16F0A0035C814 /* IUnityGraphicsD3D11.h */,
-				BFD607771EA16F0A0035C814 /* IUnityGraphicsD3D12.h */,
-				BFD607781EA16F0A0035C814 /* IUnityGraphicsMetal.h */,
-				BFD607791EA16F0A0035C814 /* IUnityInterface.h */,
-			);
-			name = Unity;
-			sourceTree = "<group>";
-		};
-		BFFBE95F245835B400E9BE1B /* SoyLib */ = {
-			isa = PBXGroup;
-			children = (
-				BFFBE973245838B000E9BE1B /* SoyFilesystem.mm */,
-				BFFBE9702458389B00E9BE1B /* SoyPixels.cpp */,
-				BFFBE96F2458389B00E9BE1B /* SoyPng.cpp */,
-				BFFBE960245835CD00E9BE1B /* SoyFilesystem.cpp */,
-			);
-			name = SoyLib;
-			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -810,10 +296,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1826A32422656E006FEB93 /* SoyStreamBuffer.h in Headers */,
-				BF151FF3238478B700A70EBF /* PopH264.h in Headers */,
-				BF151FF1238478B000A70EBF /* PopH264Framework.h in Headers */,
-				BFC4718B2447625000A2DA70 /* AvfPixelBuffer.h in Headers */,
+				BF151FF3238478B700A70EBF /* PopLib.h in Headers */,
+				BF151FF1238478B000A70EBF /* PopLibFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,8 +305,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF459CE921F7D70000CED59D /* PopH264.h in Headers */,
-				BF459CE221F7D60500CED59D /* PopH264Framework.h in Headers */,
+				BF459CE921F7D70000CED59D /* PopLib.h in Headers */,
+				BF459CE221F7D60500CED59D /* PopLibFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1053,7 +537,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBD253325D95B540076C307 /* TestData in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1099,42 +582,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF151FE12384787200A70EBF /* BroadwayAll.c in Sources */,
-				BF18269A24226502006FEB93 /* SoyImage.cpp in Sources */,
-				BF51B8AF256A7203004DE4C7 /* SoyPlatform.mm in Sources */,
-				BFFBE97F245DB65000E9BE1B /* AvfDecoder.mm in Sources */,
-				BFBC07F12386C0BC0070BCB4 /* SoyThread.cpp in Sources */,
-				BF3225792445F8DD00C74D4D /* TEncoder.cpp in Sources */,
-				BF1826AB24228C43006FEB93 /* SoyPng.cpp in Sources */,
-				BF151FE72384788600A70EBF /* SoyAssert.cpp in Sources */,
-				BFC471A2244781CC00A2DA70 /* SoyString.mm in Sources */,
-				BF152082238595CD00A70EBF /* SoyRuntimeLibrary.cpp in Sources */,
-				BF18269524226126006FEB93 /* json11.cpp in Sources */,
-				BF587C7B244B57A2000745B9 /* SoyTypes.mm in Sources */,
-				BF151FE52384788600A70EBF /* memheap.cpp in Sources */,
-				BF51B8AC256A7141004DE4C7 /* SoyPlatform.cpp in Sources */,
-				BF151FEE2384788600A70EBF /* SoyTypes.cpp in Sources */,
-				BFC471852447523100A2DA70 /* AvfEncoder.mm in Sources */,
-				BF151FE22384787800A70EBF /* BroadwayDecoder.cpp in Sources */,
-				BF151FED2384788600A70EBF /* SoyTime.mm in Sources */,
-				BF151FEB2384788600A70EBF /* SoyString.cpp in Sources */,
-				BFFBE95624582ED000E9BE1B /* PopH264TestData.cpp in Sources */,
-				BF151FE32384787800A70EBF /* PopH264.cpp in Sources */,
-				BFEF6A2524699955000A1F88 /* SoyVector.cpp in Sources */,
-				BF151FEC2384788600A70EBF /* SoyTime.cpp in Sources */,
-				BF1826B224228D31006FEB93 /* SoyFourcc.cpp in Sources */,
-				BF151FE42384787800A70EBF /* TDecoder.cpp in Sources */,
-				BF32256E2445ECD800C74D4D /* TDecoderInstance.cpp in Sources */,
-				BFEF6A1F2469963B000A1F88 /* SoyH264.cpp in Sources */,
-				BF151FEA2384788600A70EBF /* SoyPixels.cpp in Sources */,
-				BF151FE62384788600A70EBF /* SoyArray.cpp in Sources */,
-				BF32256B2445EC9F00C74D4D /* TEncoderInstance.cpp in Sources */,
-				BF151FE82384788600A70EBF /* SoyDebug.cpp in Sources */,
-				BF1826A12422656E006FEB93 /* SoyStreamBuffer.cpp in Sources */,
-				BF151FE92384788600A70EBF /* SoyDebug.mm in Sources */,
-				BF0CCB2524A78D8D00596877 /* SoyMediaFormat.cpp in Sources */,
-				BFEF6A1D246992D2000A1F88 /* SoyAvf.mm in Sources */,
-				BFC471912447625000A2DA70 /* AvfPixelBuffer.mm in Sources */,
+				BF151FE32384787800A70EBF /* PopLib.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1142,11 +590,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE7AADF25D9456A006F48F1 /* SoyFilesystem.cpp in Sources */,
-				BFE7AADC25D94565006F48F1 /* SoyFilesystem.mm in Sources */,
-				BFE7AADD25D9456A006F48F1 /* SoyPixels.cpp in Sources */,
-				BFE7AADE25D9456A006F48F1 /* SoyPng.cpp in Sources */,
-				BF23A42025D9417A0060DE06 /* PopH264_TestApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1154,43 +597,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBC07F02386C0BC0070BCB4 /* SoyThread.cpp in Sources */,
-				BF18269924226502006FEB93 /* SoyImage.cpp in Sources */,
-				BFFBE97E245DB65000E9BE1B /* AvfDecoder.mm in Sources */,
-				BF459CF421F7DB1B00CED59D /* PopH264.cpp in Sources */,
-				BF3225782445F8DD00C74D4D /* TEncoder.cpp in Sources */,
-				BF1826AA24228C43006FEB93 /* SoyPng.cpp in Sources */,
-				BF459CF721F7DB3C00CED59D /* SoyTypes.cpp in Sources */,
-				BFC471A1244781CC00A2DA70 /* SoyString.mm in Sources */,
-				BFF1C6EA22E3C65800AFDFD5 /* BroadwayAll.c in Sources */,
-				BF18269424226126006FEB93 /* json11.cpp in Sources */,
-				BF587C7A244B57A2000745B9 /* SoyTypes.mm in Sources */,
-				BF53E82F22EDCABB008253CD /* TDecoder.cpp in Sources */,
-				BF459CF921F7DB4400CED59D /* SoyTime.mm in Sources */,
-				BFC471842447523100A2DA70 /* AvfEncoder.mm in Sources */,
-				BF459CFB21F7DB4400CED59D /* SoyAssert.cpp in Sources */,
-				BF459CFD21F7DB4400CED59D /* SoyString.cpp in Sources */,
-				BF51B8AB256A7141004DE4C7 /* SoyPlatform.cpp in Sources */,
-				BF459CF521F7DB1E00CED59D /* BroadwayDecoder.cpp in Sources */,
-				BF3225732445F0D200C74D4D /* X264Encoder.cpp in Sources */,
-				BFFBE95524582ED000E9BE1B /* PopH264TestData.cpp in Sources */,
-				BF459CFE21F7DB4400CED59D /* SoyPixels.cpp in Sources */,
-				BFEF6A2424699955000A1F88 /* SoyVector.cpp in Sources */,
-				BF152081238595CA00A70EBF /* SoyRuntimeLibrary.cpp in Sources */,
-				BF1826B124228D31006FEB93 /* SoyFourcc.cpp in Sources */,
-				BF459CFC21F7DB4400CED59D /* SoyDebug.cpp in Sources */,
-				BF32256D2445ECD800C74D4D /* TDecoderInstance.cpp in Sources */,
-				BFEF6A1E2469963A000A1F88 /* SoyH264.cpp in Sources */,
-				BF459CF821F7DB4400CED59D /* SoyTime.cpp in Sources */,
-				BF51B8AE256A7203004DE4C7 /* SoyPlatform.mm in Sources */,
-				BF459CFA21F7DB4400CED59D /* SoyDebug.mm in Sources */,
-				BF32256A2445EC9F00C74D4D /* TEncoderInstance.cpp in Sources */,
-				BF459CF621F7DB3A00CED59D /* memheap.cpp in Sources */,
-				BF1826A02422656E006FEB93 /* SoyStreamBuffer.cpp in Sources */,
-				BFF1C71222E3CF8B00AFDFD5 /* SoyArray.cpp in Sources */,
-				BF0CCB2424A78D8D00596877 /* SoyMediaFormat.cpp in Sources */,
-				BFEF6A1B246992D1000A1F88 /* SoyAvf.mm in Sources */,
-				BFC471902447625000A2DA70 /* AvfPixelBuffer.mm in Sources */,
+				BF459CF421F7DB1B00CED59D /* PopLib.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1198,13 +605,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFBE961245835CD00E9BE1B /* SoyFilesystem.cpp in Sources */,
-				BFFBE9712458389B00E9BE1B /* SoyPng.cpp in Sources */,
-				BFFBE9722458389B00E9BE1B /* SoyPixels.cpp in Sources */,
-				BFFBE97924587F7600E9BE1B /* json11.cpp in Sources */,
-				BFFBE974245838B000E9BE1B /* SoyFilesystem.mm in Sources */,
-				BFFBE9782458796C00E9BE1B /* PopH264_TestAssetGenerator.cpp in Sources */,
-				BFC4717B2447509600A2DA70 /* PopH264_TestApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1446,7 +846,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
-				BUILD_TARGET_NAME = PopH264;
+				BUILD_TARGET_NAME = PopLib;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1488,7 +888,7 @@
 				OBJROOT = "$(SYMROOT)$(EFFECTIVE_PLATFORM_NAME)";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
-				UNITY_OUTPUT_PATH = "$(SOURCE_ROOT)/Unity/PopH264/Assets/PopH264/";
+				UNITY_OUTPUT_PATH = "$(SOURCE_ROOT)/Unity/$(BUILD_TARGET_NAME)/Assets/$(BUILD_TARGET_NAME)/";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1499,7 +899,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
-				BUILD_TARGET_NAME = PopH264;
+				BUILD_TARGET_NAME = PopLib;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1535,7 +935,7 @@
 				OBJROOT = "$(SYMROOT)$(EFFECTIVE_PLATFORM_NAME)";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
-				UNITY_OUTPUT_PATH = "$(SOURCE_ROOT)/Unity/PopH264/Assets/PopH264/";
+				UNITY_OUTPUT_PATH = "$(SOURCE_ROOT)/Unity/$(BUILD_TARGET_NAME)/Assets/$(BUILD_TARGET_NAME)/";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1709,7 +1109,6 @@
 			buildSettings = {
 				ANDROID_ABI_ONLY = "armeabi-v7a";
 				ANDROID_NDK_HOME = "/usr/local/share/android-ndk";
-				BUILD_TARGET_NAME = PopH264;
 				UNITY_ASSET_PLUGIN_PATH = "$(UNITY_OUTPUT_PATH)/Android";
 			};
 			name = Debug;
@@ -1720,7 +1119,6 @@
 			buildSettings = {
 				ANDROID_ABI_ONLY = "armeabi-v7a";
 				ANDROID_NDK_HOME = "/usr/local/share/android-ndk";
-				BUILD_TARGET_NAME = PopH264;
 				UNITY_ASSET_PLUGIN_PATH = "$(UNITY_OUTPUT_PATH)/Android";
 			};
 			name = Release;

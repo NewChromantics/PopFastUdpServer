@@ -54,7 +54,7 @@ if [ -z "$NDK_PROJECT_PATH" ]; then
 	export NDK_PROJECT_PATH=$BUILD_PROJECT_FOLDER
 fi
 
-ADDITIONAL_BUILD_FILES=(Source/PopH264.h)
+ADDITIONAL_BUILD_FILES=(Source/PopLib.h Source_Unity/PopLib.cs)
 
 
 function InstallAndRunTestExecutable()
