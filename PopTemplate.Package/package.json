@@ -1,0 +1,30 @@
+{
+  "name":"com.newchromantics.poptemplate",
+  "oldname": "@newchromantics/poptemplate",
+  "displayName": "PopTemplate",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@newchromantics"
+  },
+  "version": "0.0.1",
+  "description": "Template library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewChromantics/PopTemplate.git"
+  },
+  "keywords": [],
+  "author":
+  {
+    "name" : "New Chromantics", 
+    "email" : "graham@newchromantics.com",
+    "url" : "https://github.com/NewChromantics/PopUnitySockets"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewChromantics/PopH264/issues"
+  },
+  "homepage": "https://github.com/NewChromantics/PopH264#readme"
+}

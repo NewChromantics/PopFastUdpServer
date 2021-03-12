@@ -3,6 +3,7 @@ name: Build Android
 on:
   push:
     branches:
+      - main
       - master
       - '*Test*'
 
@@ -10,7 +11,7 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     env:
-      project: PopH264
+      project: PopTemplate
     
     steps:
     - uses: actions/checkout@v2
@@ -20,14 +21,14 @@ jobs:
     - name: Build Android lib
       uses: NewChromantics/PopAction_BuildAndroid@v2
       with:
-        buildtargetname: "PopH264"
-        buildpath: "PopH264.Android/libPopH264"
+        buildtargetname: "PopTemplate"
+        buildpath: "PopTemplate.Android/libPopTemplate"
         
-    - name: Build Android test app
-      uses: NewChromantics/PopAction_BuildAndroid@v2
-      with:
-        buildtargetname: "PopH264"
-        buildpath: "PopH264.Android/PopH264TestApp"
+    #- name: Build Android test app
+    #  uses: NewChromantics/PopAction_BuildAndroid@v2
+    #  with:
+    #    buildtargetname: "PopH264"
+    #    buildpath: "PopH264.Android/PopH264TestApp"
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v2

@@ -1,12 +1,12 @@
 name: Create Release
 
 env:
-  project: PopH264
+  project: PopTemplate
 
 on:
   push:
     branches:
-      - master
+      - main
       - '*Test*'
     #gr: testing, but cannot have path AND branch
     #paths:
@@ -111,14 +111,14 @@ jobs:
         id: Wasm
         if: matrix.config.type == 'Wasm'
         env: 
-          BUILD_TARGET_NAME: PopH264
-        run: PopH264.Emscripten/Build.sh PopH264.Emscripten/ release
+          BUILD_TARGET_NAME: PopTemplate
+        run: PopTemplate.Emscripten/Build.sh PopTemplate.Emscripten/ release
 
       - name: Wasm set artifact env vars
         if: matrix.config.type == 'Wasm'
         run: |
-          echo "UPLOAD_NAME=PopH264.Wasm" >> $GITHUB_ENV
-          echo "UPLOAD_DIR=PopH264.Emscripten/Build" >> $GITHUB_ENV 
+          echo "UPLOAD_NAME=PopTemplate.Wasm" >> $GITHUB_ENV
+          echo "UPLOAD_DIR=PopTemplate.Emscripten/Build" >> $GITHUB_ENV 
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
@@ -144,7 +144,7 @@ jobs:
          echo Copying files into $PACKAGE_DIR
          echo Project is ${{ env.project }}
          cp Readme.md $PACKAGE_DIR
-         rsync -aP Unity/PopH264/Assets/PopH264/ $PACKAGE_DIR
+         rsync -aP Unity/PopTemplate/Assets/PopTemplate/ $PACKAGE_DIR
         env:
           PACKAGE_DIR: ${{ env.project }}.Package/
 

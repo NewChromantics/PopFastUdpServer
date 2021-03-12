@@ -9,7 +9,7 @@ on:
 jobs:
   Test:
     env:
-      project: PopH264
+      project: PopTemplate
     runs-on: ${{ matrix.config.os }}
     strategy:
       matrix:
