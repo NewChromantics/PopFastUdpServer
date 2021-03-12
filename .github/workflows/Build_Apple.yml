@@ -1,0 +1,30 @@
+name: Build Apple
+
+env:
+  project: PopH264
+
+on:
+  push:
+    branches:
+      - master
+      - '*Test*' 
+
+jobs:
+  Test:
+    name: Universal
+    runs-on: macOS
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: "recursive"
+      - uses: NewChromantics/PopAction_BuildApple@v1.0.9
+        with:
+          BuildScheme: ${{ env.project }}_Universal
+          project: ${{ env.project }}
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          # tsdk: these env vars are set in each of the actions
+          name: ${{ env.UPLOAD_NAME }}
+          path: ${{ env.UPLOAD_DIR }}

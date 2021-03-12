@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\AndroidMovieDecoder.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\BroadwayDecoder.cpp" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\Broadway.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\Broadway\Decoder\src\Decoder.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\Broadway\Decoder\src\DecTestBench.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\Broadway\Decoder\src\EvaluationTestBench.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\Broadway\Decoder\src\extraFlags.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_byte_stream.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_cavlc.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_conceal.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_deblocking.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_decoder.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_dpb.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_image.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_inter_prediction.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_intra_prediction.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_macroblock_layer.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_nal_unit.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_neighbour.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_pic_order_cnt.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_pic_param_set.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_reconstruct.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_sei.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_seq_param_set.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_slice_data.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_slice_group_map.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_slice_header.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_storage.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_stream.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_transform.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_util.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_vlc.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\h264bsd_vui.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\H264SwDecApi.c" />
+    <ClCompile Include="..\Source\Broadway\Decoder\src\TestBenchMultipleInstance.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\IntelMediaDecoder.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\Json11\json11.cpp" />
+    <ClCompile Include="..\Source\MediaFoundationDecoder.cpp" />
+    <ClCompile Include="..\Source\MediaFoundationEncoder.cpp" />
+    <ClCompile Include="..\Source\MediaFoundationTransformer.cpp" />
+    <ClCompile Include="..\Source\PopH264.cpp" />
+    <ClCompile Include="..\Source\PopH264TestData.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\memheap.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyArray.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyAssert.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyDebug.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyEvent.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\SoyLib\src\SoyFilesystem.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyFourcc.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyH264.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyImage.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyJson.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\SoyLib\src\SoyMath.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\SoyLib\src\SoyMedia.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\SoyLib\src\SoyMediaFormat.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\SoyLib\src\SoyMediaFoundation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\SoyLib\src\SoyPixels.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyPlatform.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyPng.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyRuntimeLibrary.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyStreamBuffer.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyString.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyThread.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyTime.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyTypes.cpp" />
+    <ClCompile Include="..\Source\SoyLib\src\SoyWave.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\TDecoder.cpp" />
+    <ClCompile Include="..\Source\TDecoderInstance.cpp" />
+    <ClCompile Include="..\Source\TEncoder.cpp" />
+    <ClCompile Include="..\Source\TEncoderInstance.cpp" />
+    <ClCompile Include="..\Source\Test.cpp" />
+    <ClCompile Include="..\Source\X264Encoder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\AndroidMovieDecoder.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Source\AvfEncoder.h" />
+    <ClInclude Include="..\Source\BroadwayDecoder.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_byte_stream.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_cavlc.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_cfg.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_conceal.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_container.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_deblocking.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_decoder.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_dpb.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_image.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_inter_prediction.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_intra_prediction.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_macroblock_layer.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_nal_unit.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_neighbour.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_pic_order_cnt.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_pic_param_set.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_reconstruct.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_sei.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_seq_param_set.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_slice_data.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_slice_group_map.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_slice_header.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_storage.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_stream.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_transform.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_util.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_vlc.h" />
+    <ClInclude Include="..\Source\Broadway\Decoder\src\h264bsd_vui.h" />
+    <ClInclude Include="..\Source\IntelMediaDecoder.h" />
+    <ClInclude Include="..\Source\Json11\json11.hpp" />
+    <ClInclude Include="..\Source\MediaFoundationDecoder.h" />
+    <ClInclude Include="..\Source\MediaFoundationEncoder.h" />
+    <ClInclude Include="..\Source\MediaFoundationTransformer.h" />
+    <ClInclude Include="..\Source\PopH264TestData.h" />
+    <ClInclude Include="..\Source\SoyAvf.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyFilesystem.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyPlatform.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyRuntimeLibrary.h" />
+    <ClInclude Include="..\Source\TDecoderInstance.h" />
+    <ClInclude Include="..\Source\TEncoder.h" />
+    <ClInclude Include="..\Source\TEncoderInstance.h" />
+    <ClInclude Include="..\Source\TInstanceManager.h" />
+    <ClInclude Include="..\Source\X264Encoder.h" />
+    <ClInclude Include="..\Source\X264\include\x264.h" />
+    <ClInclude Include="..\Source\X264\include\x264_config.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxastructures.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxaudio++.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxaudio.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxbrc.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxcamera.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxcommon.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxdefs.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxenc.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxjpeg.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxla.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxmvc.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxpak.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxplugin++.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxplugin.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxsession.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxstructures.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxvideo++.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxvideo.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxvp8.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxvp9.h" />
+    <ClInclude Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\include\mfxvstructures.h" />
+    <CopyFileToFolders Include="..\Source\PopH264.h" />
+    <ClInclude Include="..\Source\MagicEnum\include\magic_enum.hpp" />
+    <ClInclude Include="..\Source\PopH264Framework.h" />
+    <ClInclude Include="..\Source\SoyLib\src\Array.hpp" />
+    <ClInclude Include="..\Source\SoyLib\src\BufferArray.hpp" />
+    <ClInclude Include="..\Source\SoyLib\src\HeapArray.hpp" />
+    <ClInclude Include="..\Source\SoyLib\src\MemHeap.hpp" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyArray.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyAssert.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyDebug.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyEvent.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyFourcc.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyH264.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyImage.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyJson.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyMath.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyMedia.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyMediaFormat.h" />
+    <ClInclude Include="..\Source\SoyLib\src\soymediafoundation.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyPixels.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyPng.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyStreamBuffer.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyString.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyThread.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyTypes.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyTypes_Windows.h" />
+    <ClInclude Include="..\Source\SoyLib\src\SoyWave.h" />
+    <ClInclude Include="..\Source\SoyLib\src\string.hpp" />
+    <ClInclude Include="..\Source\TDecoder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Source\AvfEncoder.mm" />
+    <None Include="..\Source\Broadway\Decoder\src\EvaluationTestBench.x">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\Source\InstanceManager.inc" />
+    <None Include="..\Source\SoyAvf.mm" />
+    <CopyFileToFolders Include="..\Source\X264\bin\x64\x264.dll">
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <None Include="..\Source\X264\bin\x86\x264.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\Source\X264\lib\x86\x264.pdb">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\Unity\PopH264\Assets\PopH264\PopH264.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Source\X264\lib\x64\libx264.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Source\X264\lib\x64\x264.lib" />
+    <Library Include="..\Source\X264\lib\x86\x264.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\lib\x64\libmfx.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="C:\Program Files (x86)\IntelSWTools\Intel(R) Media SDK 2019 R1\Software Development Kit\lib\x64\libmfx_vs2015.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Library>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64811728-CD20-4F2C-899B-E3BF3D4B032E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PopH264</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>PopH264</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PopH264.props" />
+    <Import Project="IntelMediaSdk.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PopH264.props" />
+    <Import Project="Release.props" />
+    <Import Project="IntelMediaSdk.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\Build\$(Configuration)_$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)..\Build\$(Configuration)_$(Platform)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link />
+    <Link />
+    <PostBuildEvent />
+    <Link />
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+    </ClCompile>
+    <Link />
+    <Link />
+    <PostBuildEvent />
+    <Link />
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

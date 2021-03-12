@@ -1,0 +1,37 @@
+name: Build Android
+
+on:
+  push:
+    branches:
+      - master
+      - '*Test*'
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    env:
+      project: PopH264
+    
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
+
+    - name: Build Android lib
+      uses: NewChromantics/PopAction_BuildAndroid@v2
+      with:
+        buildtargetname: "PopH264"
+        buildpath: "PopH264.Android/libPopH264"
+        
+    - name: Build Android test app
+      uses: NewChromantics/PopAction_BuildAndroid@v2
+      with:
+        buildtargetname: "PopH264"
+        buildpath: "PopH264.Android/PopH264TestApp"
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        # tsdk: these env vars are set in each of the actions
+        name: ${{ env.UPLOAD_NAME }}
+        path: ${{ env.UPLOAD_DIR }}
