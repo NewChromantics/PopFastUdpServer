@@ -20,4 +20,6 @@
 
 
 
-__export int32_t			PopTemplate_GetVersion();
+__export int32_t			PopTemplate_GetVersion_Major();
+__export int32_t			PopTemplate_GetVersion_Minor();
+__export int32_t			PopTemplate_GetVersion_Patch();
